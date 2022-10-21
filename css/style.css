@@ -196,8 +196,10 @@ footer {
 }
 footer p {
   margin-top: 0;
+  cursor: pointer;
 }
 footer h3 {
+  font-family: "shrikhand";
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
