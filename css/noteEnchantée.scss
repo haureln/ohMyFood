@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	font-family: 'roboto';
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
+}
+.content{
+	max-width: 420px;
+	border:rgb(156, 156, 156) 0.5px solid;
+}
+h1{
+	font-family: "shrikhand";
+    text-align: center;
+}
+img{
+    object-fit: cover;
+    width: 420px;
+    height: 330px;
+}
+
+.h3-card{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1px solid #99E2D0;
+}
+
+.carte{
+    margin: 0;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    // padding: 1em;
+    // z-index: 1;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.article{
+    padding: 1em;
+}
+.title{
+    font-family: "shrikhand";
+    padding: 1em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.notice{
+    display: flex;
+    justify-content: space-between;
+	height: 70px;
+	margin-bottom:1em;
+	background-color:#f7f7f7;
+	border-radius: 20px;
+	box-shadow: 0px 0px 11px rgb(223, 222, 222);
+}
+.text-notice{
+    margin: 7px 16px;
+}
+.title-card{
+    font-style: bold;
+    font-weight: 700;
+}
+button{
+    width: 200px;
+    margin: 1em 0 3em 0;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background:linear-gradient(#FF79DA, #9356DC) ;
+    border-radius: 20px;
+    height: 48px;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px rgb(223, 222, 222);
+    transition: transform .5s, box-shadow 1s;
+    
+}
+button:hover{
+    transform: scale(1.02) perspective(0px);
+    box-shadow: 10px 5px 5px rgb(156, 156, 156);;  
+}
+footer{
+    width: 100%;
+
+    bottom: 0;
+	padding: 1.5em;
+	background-color: #353535;
+	color: white;
+	// p{
+	// 	margin-top: 0;
+	// 	cursor: pointer;
+	// }
+	// h3{
+	// 	font-family: "shrikhand";
+	// 	margin-top: 0.5em;
+	// 	margin-bottom: 1em;
+	// }
+}
+.p-footer{
+    margin-top: 0;
+    cursor: pointer;
+}
+.h3-footer{
+    font-family: "shrikhand";
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.rotateIcon45 {
+		transform: rotate(-45deg)
+}
+.mr-0-5{
+	margin-right: 0.5em;
+}
+
+// coeur
+.fa-heart::before {
+	color: lightgrey;
+    font-weight: bold;
+    transition: color 1s ease-out;
+}
+.fa-heart:hover::before{
+	color: #9356DC;
+    cursor: pointer;
+}

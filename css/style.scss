@@ -20,6 +20,10 @@ h1, .cta{
 h2{
 	margin-top: 0;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 input{
 	width: 99%;
 	height: 60px;
@@ -186,15 +190,23 @@ footer{
 	}
 }
 .rotateIcon45 {
-
 		transform: rotate(-45deg)
-	
-		
-
 }
 
 
 // 
 .mr-0-5{
 	margin-right: 0.5em;
+}
+
+// coeur
+.fa-heart::before {
+	font-size: 22px;
+	color: lightgrey;
+    font-weight: bold;
+    transition: color 1s ease-out;
+}
+.fa-heart:hover::before{
+	color: #9356DC;
+    cursor: pointer;
 }
